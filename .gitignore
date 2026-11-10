@@ -1,0 +1,18 @@
+# Local personal financial records and SQLite sidecars
+/budget.csv
+/budgets.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Environments, caches, local secrets, and archived copies
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+Versions/
