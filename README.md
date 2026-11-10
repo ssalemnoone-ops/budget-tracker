@@ -3,6 +3,19 @@
 A Python command-line expense tracker with SQLite storage, exact money values,
 category reports, monthly summaries, and monthly spending limits.
 
+## Project progression
+
+This repository keeps both milestones visible:
+
+| Version | What it demonstrates | Explore |
+| --- | --- | --- |
+| v0.1 — Original calculator | Single-file Python app, CSV storage, input prompts, and 9 tests | [Archived source](archive/v0.1/) · [Original repository snapshot](https://github.com/ssalemnoone-ops/budget-tracker/tree/d02e5515cca4356f98f5cf7b77a1efb8fb059ed9) |
+| v0.2 — SQLite and analysis | Separate modules, exact money handling, SQLite migration, edit/delete, spending reports, and 86 tests | [Update snapshot](https://github.com/ssalemnoone-ops/budget-tracker/tree/22b993c70184f08226d0899c0f9fe948077ef862) · [Changelog](CHANGELOG.md) |
+
+[Compare v0.1 to v0.2](https://github.com/ssalemnoone-ops/budget-tracker/compare/d02e5515cca4356f98f5cf7b77a1efb8fb059ed9...22b993c70184f08226d0899c0f9fe948077ef862) to see how the implementation evolved.
+The current application is at the repository root. The archive preserves the original
+code and tests unchanged; the full commit history remains available.
+
 ## Run
 
 Requires **Python 3.10 or newer**. On macOS or Linux:
