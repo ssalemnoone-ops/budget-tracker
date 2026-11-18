@@ -85,6 +85,20 @@ def load_expenses(path=None):
              "amount": Decimal(row["amount_cents"]) / 100} for row in rows]
 
 
+def load_daily_spending(start, end, path=None):
+    """Return ISO dates mapped to integer cents for an inclusive date range."""
+    with _connect(path) as connection:
+        rows = connection.execute(
+            """SELECT date, SUM(amount_cents) AS daily_cents
+               FROM expenses
+               WHERE date BETWEEN ? AND ?
+               GROUP BY date
+               ORDER BY date""",
+            (start.isoformat(), end.isoformat()),
+        ).fetchall()
+    return {row["date"]: row["daily_cents"] for row in rows}
+
+
 def update_expense(expense_id, expense, path=None):
     """Replace the fields of one ID; return whether it existed."""
     values = _expense_values(expense)

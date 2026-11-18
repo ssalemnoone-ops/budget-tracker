@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.3 — Forecasting and Reproducible Evaluation
+
+- Add a calendar-day baseline forecast and 5,000-path NumPy bootstrap simulation.
+- Add a SQLite daily aggregation query with forecast cutoff filtering.
+- Add forecast and backtest menu options 11 and 12.
+- Generate a seeded, fictional year with zero-spending days, recurring bills,
+  weekday patterns, and occasional large purchases.
+- Evaluate forecasts on days 7, 10, 15, and 20 and publish per-month predictions,
+  mean absolute error, bias, empirical interval coverage, and interval width.
+- Include reproducible charts, a methods report, and regression tests for leakage.
+
 ## v0.2 — SQLite Storage and Spending Analysis
 
 - Separate the command-line interface, persistence, validation, and calculations.

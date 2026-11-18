@@ -1,0 +1,6 @@
+Python 3.14.7
+NumPy 2.5.4
+Matplotlib 3.11.2
+SQLite 3.50.4
+Data seed 20261118
+Simulation paths 5000

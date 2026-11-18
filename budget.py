@@ -1,9 +1,11 @@
 """Command-line interface. Run this file to start the calculator."""
-from datetime import date as Date
+from datetime import date as Date, timedelta
+from decimal import Decimal
 
 from tabulate import tabulate
 
 import analysis
+import forecast
 import storage
 from validation import parse_amount, parse_month
 
@@ -127,6 +129,10 @@ def main():
                 edit_expense()
             elif action == 10:
                 remove_expense()
+            elif action == 11:
+                show_forecast()
+            elif action == 12:
+                show_forecast_backtest()
         except (OSError, ValueError, storage.DatabaseError) as exc:
             print(f"Could not process expenses: {exc}")
 
@@ -141,12 +147,13 @@ def get_action():
                 "5. Spending by category\n6. Monthly spending summaries\n"
                 "7. Set monthly budget\n8. View monthly budget status\n"
                 "9. Edit an expense\n10. Delete an expense\n"
+                "11. Forecast month-end spending\n12. Backtest the baseline\n"
             ))
-            if 1 <= action <= 10:
+            if 1 <= action <= 12:
                 return action
         except ValueError:
             pass
-        print("Please enter a number from 1 to 10.")
+        print("Please enter a number from 1 to 12.")
 
 
 def get_expense(path=None):
@@ -290,6 +297,66 @@ def remove_expense():
         print("Expense deleted.")
     else:
         print("Expense no longer exists.")
+
+
+def show_forecast():
+    print("Enter the last fully logged day in the month. Days without entries count as $0.")
+    value = Getter().get_date()
+    if value == "exit":
+        return
+    as_of = Date.fromisoformat(value)
+    if as_of > Date.today():
+        print("Choose today or an earlier date.")
+        return
+
+    daily_cents = storage.load_daily_spending(as_of.replace(day=1), as_of)
+    if not daily_cents:
+        print("No spending logged through that date. Record expenses before forecasting.")
+        return
+    spent = Decimal(sum(daily_cents.values())) / 100
+    estimate = forecast.forecast_month_end(daily_cents, as_of)
+    print(f"Spent through {as_of}: ${spent:.2f}")
+    print(f"Baseline month-end estimate: ${estimate:.2f}")
+
+    month = as_of.isoformat()[:7]
+    budget = storage.load_budgets().get(month)
+    if as_of.day < forecast.MIN_SIMULATION_DAYS:
+        print(f"Simulation becomes available after {forecast.MIN_SIMULATION_DAYS} fully logged days.")
+        return
+
+    simulated = forecast.simulate_month_end(daily_cents, as_of, budget)
+    print(f"Middle 80% of simulated totals: ${simulated['lower']:.2f}–${simulated['upper']:.2f}")
+    if budget is None:
+        print("Set a monthly budget with option 7 to estimate the chance of exceeding it.")
+    else:
+        print(f"Simulated chance of exceeding ${budget:.2f}: {simulated['chance_over']:.1%}")
+    print("The simulation samples calendar days from this month through the cutoff date.")
+
+
+def show_forecast_backtest():
+    print("Enter the first fully logged month. All completed months from then are evaluated.")
+    value = get_month()
+    if value is None:
+        return
+    first_month = Date.fromisoformat(value + "-01")
+    last_completed_day = Date.today().replace(day=1) - timedelta(days=1)
+    if first_month > last_completed_day:
+        print("Choose a completed month.")
+        return
+
+    daily_cents = storage.load_daily_spending(first_month, last_completed_day)
+    if not daily_cents:
+        print("No spending logged in the selected period.")
+        return
+    results = forecast.backtest(daily_cents, first_month, last_completed_day)
+    rows = [
+        {"Month": row["month"], "Day-10 forecast": f"${row['forecast']:.2f}",
+         "Actual": f"${row['actual']:.2f}", "Absolute error": f"${row['absolute_error']:.2f}"}
+        for row in results
+    ]
+    print(tabulate(rows, headers="keys", tablefmt="grid"))
+    mean_error = sum(row["absolute_error"] for row in results) / len(results)
+    print(f"Mean absolute error across {len(results)} month(s): ${mean_error:.2f}")
 
 
 if __name__ == "__main__":

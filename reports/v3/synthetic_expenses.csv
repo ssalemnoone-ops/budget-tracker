@@ -1,0 +1,335 @@
+date,category,description,amount
+2025-01-01,Groceries,Synthetic groceries,44.23
+2025-01-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-01-01,Transportation & Transit,Synthetic transit,3.35
+2025-01-02,Groceries,Synthetic groceries,38.79
+2025-01-02,Transportation & Transit,Synthetic transit,3.35
+2025-01-03,Groceries,Synthetic groceries,52.22
+2025-01-04,Dining & Restaurants,Synthetic dining,31.84
+2025-01-05,Transportation & Transit,Synthetic transit,3.35
+2025-01-06,Transportation & Transit,Synthetic transit,3.35
+2025-01-07,Transportation & Transit,Synthetic transit,3.35
+2025-01-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-01-09,Groceries,Synthetic groceries,37.48
+2025-01-10,Groceries,Synthetic groceries,44.09
+2025-01-11,Dining & Restaurants,Synthetic dining,12.95
+2025-01-11,Transportation & Transit,Synthetic transit,3.35
+2025-01-14,Dining & Restaurants,Synthetic dining,9.59
+2025-01-14,Groceries,Synthetic groceries,9.93
+2025-01-14,Transportation & Transit,Synthetic transit,3.35
+2025-01-16,Transportation & Transit,Synthetic transit,3.35
+2025-01-18,Groceries,Synthetic groceries,52.13
+2025-01-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-01-21,Groceries,Synthetic groceries,57.63
+2025-01-22,Groceries,Synthetic groceries,22.41
+2025-01-24,Dining & Restaurants,Synthetic dining,37.98
+2025-01-24,Groceries,Synthetic groceries,8.12
+2025-01-25,Groceries,Synthetic groceries,29.95
+2025-01-25,Transportation & Transit,Synthetic transit,3.35
+2025-01-26,Groceries,Synthetic groceries,58.43
+2025-01-29,Transportation & Transit,Synthetic transit,3.35
+2025-01-30,Groceries,Synthetic groceries,47.17
+2025-02-01,Dining & Restaurants,Synthetic dining,8.25
+2025-02-01,Groceries,Synthetic groceries,21.67
+2025-02-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-02-02,Groceries,Synthetic groceries,21.78
+2025-02-05,Groceries,Synthetic groceries,61.73
+2025-02-07,Dining & Restaurants,Synthetic dining,11.34
+2025-02-07,Groceries,Synthetic groceries,53.11
+2025-02-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-02-10,Groceries,Synthetic groceries,49.68
+2025-02-12,Groceries,Synthetic groceries,56.89
+2025-02-14,Transportation & Transit,Synthetic transit,3.35
+2025-02-15,Groceries,Synthetic groceries,37.49
+2025-02-16,Dining & Restaurants,Synthetic dining,23.32
+2025-02-16,Groceries,Synthetic groceries,58.24
+2025-02-18,Groceries,Synthetic groceries,35.46
+2025-02-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-02-19,Groceries,Synthetic groceries,9.18
+2025-02-20,Groceries,Synthetic groceries,18.84
+2025-02-21,Dining & Restaurants,Synthetic dining,11.61
+2025-02-21,Groceries,Synthetic groceries,15.36
+2025-02-23,Dining & Restaurants,Synthetic dining,30.26
+2025-02-25,Groceries,Synthetic groceries,10.94
+2025-02-28,Groceries,Synthetic groceries,58.45
+2025-02-28,Transportation & Transit,Synthetic transit,3.35
+2025-03-01,Dining & Restaurants,Synthetic dining,23.2
+2025-03-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-03-02,Groceries,Synthetic groceries,9.39
+2025-03-07,Groceries,Synthetic groceries,42.41
+2025-03-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-03-11,Groceries,Synthetic groceries,23.87
+2025-03-11,Transportation & Transit,Synthetic transit,3.35
+2025-03-15,Dining & Restaurants,Synthetic dining,22.12
+2025-03-16,Dining & Restaurants,Synthetic dining,21.49
+2025-03-16,Transportation & Transit,Synthetic transit,3.35
+2025-03-17,Groceries,Synthetic groceries,47.81
+2025-03-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-03-18,Shopping & Retail,Synthetic large item,194.96
+2025-03-19,Dining & Restaurants,Synthetic dining,36.38
+2025-03-20,Groceries,Synthetic groceries,8.28
+2025-03-22,Groceries,Synthetic groceries,54.38
+2025-03-26,Transportation & Transit,Synthetic transit,3.35
+2025-03-28,Groceries,Synthetic groceries,21.2
+2025-03-30,Dining & Restaurants,Synthetic dining,16.38
+2025-04-01,Groceries,Synthetic groceries,57.69
+2025-04-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-04-02,Groceries,Synthetic groceries,53.93
+2025-04-03,Dining & Restaurants,Synthetic dining,17.53
+2025-04-06,Dining & Restaurants,Synthetic dining,8.69
+2025-04-07,Groceries,Synthetic groceries,36.09
+2025-04-08,Groceries,Synthetic groceries,50.1
+2025-04-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-04-09,Dining & Restaurants,Synthetic dining,8.42
+2025-04-10,Dining & Restaurants,Synthetic dining,21.86
+2025-04-12,Groceries,Synthetic groceries,53.77
+2025-04-13,Dining & Restaurants,Synthetic dining,31.19
+2025-04-16,Groceries,Synthetic groceries,34.77
+2025-04-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-04-19,Groceries,Synthetic groceries,41.6
+2025-04-20,Dining & Restaurants,Synthetic dining,37.77
+2025-04-20,Groceries,Synthetic groceries,62.89
+2025-04-23,Dining & Restaurants,Synthetic dining,32.58
+2025-04-23,Groceries,Synthetic groceries,51.26
+2025-04-27,Dining & Restaurants,Synthetic dining,37.4
+2025-04-27,Groceries,Synthetic groceries,18.78
+2025-04-28,Groceries,Synthetic groceries,64.64
+2025-04-29,Transportation & Transit,Synthetic transit,3.35
+2025-04-30,Dining & Restaurants,Synthetic dining,12.16
+2025-04-30,Transportation & Transit,Synthetic transit,3.35
+2025-05-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-05-03,Groceries,Synthetic groceries,42.14
+2025-05-04,Dining & Restaurants,Synthetic dining,24.22
+2025-05-04,Groceries,Synthetic groceries,43.07
+2025-05-05,Transportation & Transit,Synthetic transit,3.35
+2025-05-06,Groceries,Synthetic groceries,41.73
+2025-05-07,Dining & Restaurants,Synthetic dining,26.25
+2025-05-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-05-08,Transportation & Transit,Synthetic transit,3.35
+2025-05-10,Groceries,Synthetic groceries,27
+2025-05-11,Dining & Restaurants,Synthetic dining,22.97
+2025-05-13,Dining & Restaurants,Synthetic dining,14.32
+2025-05-13,Transportation & Transit,Synthetic transit,3.35
+2025-05-14,Transportation & Transit,Synthetic transit,3.35
+2025-05-17,Groceries,Synthetic groceries,15.83
+2025-05-18,Dining & Restaurants,Synthetic dining,24.92
+2025-05-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-05-19,Groceries,Synthetic groceries,59.35
+2025-05-19,Transportation & Transit,Synthetic transit,3.35
+2025-05-20,Groceries,Synthetic groceries,24.66
+2025-05-20,Transportation & Transit,Synthetic transit,3.35
+2025-05-21,Dining & Restaurants,Synthetic dining,22.38
+2025-05-21,Groceries,Synthetic groceries,42.62
+2025-05-22,Groceries,Synthetic groceries,43.61
+2025-05-23,Groceries,Synthetic groceries,32.58
+2025-05-25,Dining & Restaurants,Synthetic dining,28.43
+2025-05-26,Dining & Restaurants,Synthetic dining,15.6
+2025-05-26,Groceries,Synthetic groceries,18.91
+2025-05-28,Groceries,Synthetic groceries,46.41
+2025-05-28,Transportation & Transit,Synthetic transit,3.35
+2025-05-29,Dining & Restaurants,Synthetic dining,19.19
+2025-05-31,Dining & Restaurants,Synthetic dining,19.95
+2025-06-01,Dining & Restaurants,Synthetic dining,37.33
+2025-06-01,Groceries,Synthetic groceries,37.63
+2025-06-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-06-02,Groceries,Synthetic groceries,10.35
+2025-06-04,Groceries,Synthetic groceries,64.79
+2025-06-05,Groceries,Synthetic groceries,63.89
+2025-06-05,Transportation & Transit,Synthetic transit,3.35
+2025-06-06,Transportation & Transit,Synthetic transit,3.35
+2025-06-07,Dining & Restaurants,Synthetic dining,34.37
+2025-06-07,Groceries,Synthetic groceries,29.48
+2025-06-08,Groceries,Synthetic groceries,16.87
+2025-06-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-06-11,Groceries,Synthetic groceries,57.01
+2025-06-12,Groceries,Synthetic groceries,25.52
+2025-06-15,Groceries,Synthetic groceries,53.34
+2025-06-16,Groceries,Synthetic groceries,16.96
+2025-06-18,Groceries,Synthetic groceries,16.12
+2025-06-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-06-19,Groceries,Synthetic groceries,39.89
+2025-06-20,Groceries,Synthetic groceries,55.53
+2025-06-21,Groceries,Synthetic groceries,9.94
+2025-06-22,Dining & Restaurants,Synthetic dining,36.59
+2025-06-22,Transportation & Transit,Synthetic transit,3.35
+2025-06-24,Dining & Restaurants,Synthetic dining,8.04
+2025-06-25,Groceries,Synthetic groceries,26.36
+2025-06-27,Groceries,Synthetic groceries,27.84
+2025-06-28,Groceries,Synthetic groceries,42.2
+2025-07-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-07-02,Groceries,Synthetic groceries,60.84
+2025-07-03,Dining & Restaurants,Synthetic dining,14.35
+2025-07-03,Transportation & Transit,Synthetic transit,3.35
+2025-07-05,Dining & Restaurants,Synthetic dining,14.52
+2025-07-06,Groceries,Synthetic groceries,56.99
+2025-07-07,Groceries,Synthetic groceries,49.47
+2025-07-08,Groceries,Synthetic groceries,47.98
+2025-07-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-07-09,Dining & Restaurants,Synthetic dining,10.83
+2025-07-09,Groceries,Synthetic groceries,28.03
+2025-07-09,Transportation & Transit,Synthetic transit,3.35
+2025-07-11,Dining & Restaurants,Synthetic dining,17.42
+2025-07-11,Groceries,Synthetic groceries,63.24
+2025-07-13,Dining & Restaurants,Synthetic dining,28.89
+2025-07-14,Groceries,Synthetic groceries,38.58
+2025-07-15,Transportation & Transit,Synthetic transit,3.35
+2025-07-17,Dining & Restaurants,Synthetic dining,26.93
+2025-07-17,Shopping & Retail,Synthetic large item,310.69
+2025-07-17,Transportation & Transit,Synthetic transit,3.35
+2025-07-18,Dining & Restaurants,Synthetic dining,34.03
+2025-07-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-07-19,Groceries,Synthetic groceries,59.94
+2025-07-20,Dining & Restaurants,Synthetic dining,28.15
+2025-07-24,Groceries,Synthetic groceries,58.55
+2025-07-25,Dining & Restaurants,Synthetic dining,17.97
+2025-07-26,Dining & Restaurants,Synthetic dining,8.47
+2025-07-26,Groceries,Synthetic groceries,38.57
+2025-07-28,Dining & Restaurants,Synthetic dining,9.94
+2025-07-29,Dining & Restaurants,Synthetic dining,19.02
+2025-07-29,Groceries,Synthetic groceries,18.52
+2025-07-29,Transportation & Transit,Synthetic transit,3.35
+2025-07-30,Groceries,Synthetic groceries,60.66
+2025-07-31,Transportation & Transit,Synthetic transit,3.35
+2025-08-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-08-02,Transportation & Transit,Synthetic transit,3.35
+2025-08-04,Transportation & Transit,Synthetic transit,3.35
+2025-08-05,Groceries,Synthetic groceries,57.18
+2025-08-06,Dining & Restaurants,Synthetic dining,24.03
+2025-08-06,Groceries,Synthetic groceries,10.94
+2025-08-07,Groceries,Synthetic groceries,46.63
+2025-08-08,Groceries,Synthetic groceries,24.42
+2025-08-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-08-09,Dining & Restaurants,Synthetic dining,36.2
+2025-08-09,Groceries,Synthetic groceries,35.26
+2025-08-09,Transportation & Transit,Synthetic transit,3.35
+2025-08-10,Groceries,Synthetic groceries,10.78
+2025-08-10,Transportation & Transit,Synthetic transit,3.35
+2025-08-11,Groceries,Synthetic groceries,40.03
+2025-08-13,Groceries,Synthetic groceries,25.8
+2025-08-16,Dining & Restaurants,Synthetic dining,35.95
+2025-08-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-08-19,Dining & Restaurants,Synthetic dining,18.51
+2025-08-19,Groceries,Synthetic groceries,53.94
+2025-08-21,Groceries,Synthetic groceries,39.51
+2025-08-21,Transportation & Transit,Synthetic transit,3.35
+2025-08-22,Dining & Restaurants,Synthetic dining,13.88
+2025-08-22,Groceries,Synthetic groceries,62.54
+2025-08-23,Dining & Restaurants,Synthetic dining,10.02
+2025-08-25,Transportation & Transit,Synthetic transit,3.35
+2025-08-26,Groceries,Synthetic groceries,15.99
+2025-08-28,Transportation & Transit,Synthetic transit,3.35
+2025-08-29,Groceries,Synthetic groceries,30.45
+2025-08-29,Transportation & Transit,Synthetic transit,3.35
+2025-08-31,Dining & Restaurants,Synthetic dining,29.31
+2025-08-31,Groceries,Synthetic groceries,9.29
+2025-09-01,Dining & Restaurants,Synthetic dining,20.78
+2025-09-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-09-01,Transportation & Transit,Synthetic transit,3.35
+2025-09-03,Transportation & Transit,Synthetic transit,3.35
+2025-09-07,Groceries,Synthetic groceries,55.6
+2025-09-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-09-13,Groceries,Synthetic groceries,38.78
+2025-09-14,Dining & Restaurants,Synthetic dining,30.57
+2025-09-15,Dining & Restaurants,Synthetic dining,17.45
+2025-09-15,Groceries,Synthetic groceries,33.39
+2025-09-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-09-19,Transportation & Transit,Synthetic transit,3.35
+2025-09-20,Groceries,Synthetic groceries,19.58
+2025-09-22,Groceries,Synthetic groceries,22.48
+2025-09-24,Transportation & Transit,Synthetic transit,3.35
+2025-09-25,Dining & Restaurants,Synthetic dining,14.67
+2025-09-26,Dining & Restaurants,Synthetic dining,29.06
+2025-09-27,Transportation & Transit,Synthetic transit,3.35
+2025-09-28,Dining & Restaurants,Synthetic dining,30.35
+2025-09-28,Groceries,Synthetic groceries,28
+2025-09-29,Groceries,Synthetic groceries,53.8
+2025-10-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-10-02,Groceries,Synthetic groceries,64.01
+2025-10-03,Transportation & Transit,Synthetic transit,3.35
+2025-10-04,Groceries,Synthetic groceries,10.75
+2025-10-04,Transportation & Transit,Synthetic transit,3.35
+2025-10-05,Dining & Restaurants,Synthetic dining,14.46
+2025-10-06,Groceries,Synthetic groceries,8.48
+2025-10-06,Transportation & Transit,Synthetic transit,3.35
+2025-10-08,Groceries,Synthetic groceries,19.61
+2025-10-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-10-10,Groceries,Synthetic groceries,39.43
+2025-10-11,Dining & Restaurants,Synthetic dining,18.84
+2025-10-11,Groceries,Synthetic groceries,59.2
+2025-10-12,Dining & Restaurants,Synthetic dining,38.17
+2025-10-12,Groceries,Synthetic groceries,9.53
+2025-10-13,Transportation & Transit,Synthetic transit,3.35
+2025-10-15,Dining & Restaurants,Synthetic dining,21.04
+2025-10-16,Groceries,Synthetic groceries,25.89
+2025-10-16,Transportation & Transit,Synthetic transit,3.35
+2025-10-17,Groceries,Synthetic groceries,43.84
+2025-10-17,Transportation & Transit,Synthetic transit,3.35
+2025-10-18,Dining & Restaurants,Synthetic dining,17.85
+2025-10-18,Groceries,Synthetic groceries,61.61
+2025-10-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-10-20,Groceries,Synthetic groceries,22.46
+2025-10-21,Transportation & Transit,Synthetic transit,3.35
+2025-10-24,Dining & Restaurants,Synthetic dining,30.37
+2025-10-24,Groceries,Synthetic groceries,13.22
+2025-10-26,Dining & Restaurants,Synthetic dining,17.79
+2025-10-26,Groceries,Synthetic groceries,63.6
+2025-10-28,Groceries,Synthetic groceries,28.36
+2025-10-29,Groceries,Synthetic groceries,38.07
+2025-10-30,Groceries,Synthetic groceries,24.05
+2025-10-31,Dining & Restaurants,Synthetic dining,22
+2025-11-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-11-02,Groceries,Synthetic groceries,29.19
+2025-11-07,Dining & Restaurants,Synthetic dining,20.97
+2025-11-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-11-09,Dining & Restaurants,Synthetic dining,23.69
+2025-11-10,Groceries,Synthetic groceries,43.59
+2025-11-10,Transportation & Transit,Synthetic transit,3.35
+2025-11-11,Groceries,Synthetic groceries,18.77
+2025-11-11,Transportation & Transit,Synthetic transit,3.35
+2025-11-12,Groceries,Synthetic groceries,26.6
+2025-11-14,Dining & Restaurants,Synthetic dining,30.38
+2025-11-16,Groceries,Synthetic groceries,44.57
+2025-11-17,Dining & Restaurants,Synthetic dining,10.97
+2025-11-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-11-18,Transportation & Transit,Synthetic transit,3.35
+2025-11-19,Groceries,Synthetic groceries,19.2
+2025-11-19,Shopping & Retail,Synthetic large item,320.13
+2025-11-20,Groceries,Synthetic groceries,20.95
+2025-11-21,Dining & Restaurants,Synthetic dining,12.27
+2025-11-22,Groceries,Synthetic groceries,57.57
+2025-11-26,Dining & Restaurants,Synthetic dining,20.16
+2025-11-26,Groceries,Synthetic groceries,26.96
+2025-11-27,Dining & Restaurants,Synthetic dining,25.19
+2025-11-27,Groceries,Synthetic groceries,32.1
+2025-11-28,Groceries,Synthetic groceries,8.04
+2025-11-28,Transportation & Transit,Synthetic transit,3.35
+2025-11-29,Dining & Restaurants,Synthetic dining,29.61
+2025-11-29,Groceries,Synthetic groceries,13.69
+2025-12-01,Groceries,Synthetic groceries,62.96
+2025-12-01,Recurring Bills & Utilities,Synthetic rent,900
+2025-12-02,Groceries,Synthetic groceries,27.59
+2025-12-03,Groceries,Synthetic groceries,21.89
+2025-12-04,Groceries,Synthetic groceries,44.65
+2025-12-05,Groceries,Synthetic groceries,24.77
+2025-12-06,Groceries,Synthetic groceries,24.39
+2025-12-07,Dining & Restaurants,Synthetic dining,10.72
+2025-12-07,Groceries,Synthetic groceries,21.59
+2025-12-08,Recurring Bills & Utilities,Synthetic streaming,12
+2025-12-12,Groceries,Synthetic groceries,13.6
+2025-12-14,Dining & Restaurants,Synthetic dining,37.83
+2025-12-14,Groceries,Synthetic groceries,33.79
+2025-12-14,Transportation & Transit,Synthetic transit,3.35
+2025-12-15,Groceries,Synthetic groceries,38.94
+2025-12-17,Groceries,Synthetic groceries,28.31
+2025-12-18,Recurring Bills & Utilities,Synthetic phone,45
+2025-12-19,Dining & Restaurants,Synthetic dining,28.31
+2025-12-20,Groceries,Synthetic groceries,63.06
+2025-12-21,Dining & Restaurants,Synthetic dining,24.07
+2025-12-21,Groceries,Synthetic groceries,10.57
+2025-12-23,Dining & Restaurants,Synthetic dining,27.72
+2025-12-24,Transportation & Transit,Synthetic transit,3.35
+2025-12-27,Dining & Restaurants,Synthetic dining,31.24
+2025-12-28,Dining & Restaurants,Synthetic dining,17.9
+2025-12-29,Groceries,Synthetic groceries,39.73
+2025-12-30,Groceries,Synthetic groceries,63.44
+2025-12-31,Dining & Restaurants,Synthetic dining,17

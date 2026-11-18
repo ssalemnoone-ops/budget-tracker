@@ -79,10 +79,10 @@ def test_amount_reprompts_for_negative_and_nonfinite(monkeypatch):
 
 
 def test_invalid_menu_numbers(monkeypatch, capsys):
-    inputs = iter(['11', '0', 'abc', '4'])
+    inputs = iter(['13', '0', 'abc', '4'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     assert get_action() == 4
-    assert capsys.readouterr().out.count('Please enter a number from 1 to 10.') == 3
+    assert capsys.readouterr().out.count('Please enter a number from 1 to 12.') == 3
 
 
 @pytest.mark.parametrize('method', ['get_date', 'get_category', 'get_description', 'get_amount'])
